@@ -1,0 +1,650 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+.video-section{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  min-height: 56.25vw;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%);
+}
+video {
+  object-fit: contain;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+.vdo-title{
+  display: flex;
+  flex: 1;
+  position: relative;
+  justify-content: center;
+  
+}
+.button-explore-section{
+    display: flex;
+    position: relative;
+   justify-content:center;
+   width: 100%;
+}
+.btn-explore{
+  background-color: #1b3e90;
+    color: #fff;
+    padding: 15px;
+    max-width: 90%;
+    min-width: 250px;
+    font-size: 0.8em;
+    letter-spacing: 1px;
+    border-radius: 0px;
+    margin-top: 2.5px;
+    margin-bottom: 2.5px;
+}
+.gif{
+  display: flex;
+  flex: 1;
+  position: relative;
+  height: auto;
+    width: 35px;
+    margin-left: auto;
+    vertical-align: middle;
+    border-style: none;
+    margin-right: auto;
+    margin-top: 75px;
+}
+.shopping-tools{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  padding-top: 100px;
+}
+.tools-section{
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  padding-bottom: 30px;
+}
+.tools-icon{
+  height: 115px;
+}
+.tools-icon1{
+  height: 115px;
+}
+.title-section {
+  height: 70px;
+  color: white;
+
+}
+
+.reserve-your-ride{
+  height: 380px;
+  width: 550px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right:10px;
+  margin-left: 60px;
+  cursor: pointer;
+  transition: .3s;;
+
+}
+.saveRmax-Jan:hover,
+.reserve-your-ride:hover{
+  transform: translate(0, -10px);
+
+}
+
+.saveRmax-Jan{
+  height: 380px;
+  width: 580px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 40px;
+  margin-left: 10px;
+  transition: .3s;
+  cursor: pointer;
+
+
+}
+
+.left-setion{
+  display: inline-block;
+}
+
+.right-setion{
+  display: inline-block;
+}
+
+
+.btg-ad-bg{
+width: 100%;
+
+}
+
+
+.beyondthegate-section{
+  position: relative;
+}
+.the-gate{
+    position: absolute;
+    height: 90%;
+    top: 34px;
+    bottom: 56px;
+    left: 80px;
+
+}
+
+.big-title{
+  position: absolute;
+    height: 25%;
+    top: 50px;
+    bottom: 56px;
+    right: 350px;
+}
+.underline-section{
+    position: absolute;
+    border-top: 2px solid white;
+    width: 53%;
+    top: 200px;
+    bottom: 56px;
+    right: 58px;
+}
+.underline-class{
+color: white;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+line-height: 22px;
+}
+.season-4-episode-1{
+  height: 50px;
+  width: 250px;
+  background-color: #1b3e90;
+  color: white;
+  border: none;
+  margin-right: 25px;
+  font-size: 11px;
+}
+.motorcycles{
+  border-bottom: 5px solid #1b3e90;
+  border-top: 5px solid #1b3e90;
+  margin-top: -4px;
+  padding-bottom: 25px;
+
+}
+.moto{
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+  cursor: pointer;
+  padding: 0;
+}
+.moto div{
+  color: #1b3e90;
+    font-size: 11px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+
+} 
+.yamaha-moto,
+.yamaha-offroad,
+.yamaha-sbs,
+.yamaha-atv,
+.yamaha-snow{
+height: 200px;
+transition: .3s;
+}
+.yamaha-moto:hover,
+.yamaha-offroad:hover,
+.yamaha-sbs:hover,
+.yamaha-atv:hover,
+.yamaha-snow:hover{
+  transform: translateY(-10px);
+}
+
+.yamaha-moto-sec,
+.yamaha-offroad-sec,
+.yamaha-sbs-sec,
+.yamaha-atv-sec,
+.yamaha-snow-sec{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.moto-title{
+text-align: center;
+color: #1b3e90;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 25px;
+font-weight: 300;
+letter-spacing: 2px;
+
+}
+.span{
+  font-size: 12px;
+}
+.eventbg-garage{
+  width: 100%;
+  height: 650px;
+
+}
+.event-section{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  position: relative;
+
+}
+.bluCru-Event{
+  height: 530px;
+  width: 310px;
+  position: absolute;
+  object-fit: cover;
+  top: 50px;
+  left: 130px;
+}
+.demo-bg{
+  height: 530px;
+  width: 310px;
+  position: absolute;
+  object-fit: cover;
+  top: 50px;
+  left: 495px;
+}
+.newRiverATV-bg{
+  height: 530px;
+  width: 310px;
+  position: absolute;
+  object-fit: cover;
+  top: 50px;
+  right:110px;
+}
+.blucru-badge{
+  position: absolute;
+  top: 110px;
+  left: 145px;
+ 
+}
+.button-learn-more{
+  position: absolute;
+    height: 50px;
+    width: 150px;
+    border: none;
+    bottom: 110px;
+    left: 208px;
+    color: #1b3e90;
+    background-color: white;
+    font-size: 12px;
+    font-weight: 100;
+}
+.yamaha-events{
+  position: absolute;
+    height: 260px;
+    width: 280px;
+    border: none;
+    top: 142px;
+    left: 511px;
+    color: white;
+    font-size: 12px;
+    font-weight: 100;
+}
+.text-find{
+  position: absolute;
+    height: 260px;
+    width: 280px;
+    border: none;
+    top: 410px;
+    left: 580px;
+    color: white;
+    font-size: 11px;
+    font-weight: 200;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.text-demo{
+  position: absolute;
+  height: 260px;
+  width: 280px;
+  border: none;
+  top: 440px;
+  left: 515px;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+.button-findevent{
+  position: absolute;
+    height: 50px;
+    width: 150px;
+    border: none;
+    bottom: 110px;
+    left: 575px;
+    color: #1b3e90;
+    background-color: white;
+    font-size: 12px;
+    font-weight: 100;
+}
+.yamaha-destination{
+  position: absolute;
+    height: 260px;
+    width: 280px;
+    border: none;
+    top: 142px;
+    left: 875px;
+    color: white;
+    font-size: 12px;
+    font-weight: 100;
+}
+.text-see{
+  position: absolute;
+    height: 260px;
+    width: 280px;
+    border: none;
+    top: 410px;
+    left: 920px;
+    color: white;
+    font-size: 11px;
+    font-weight: 200;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.text-deatination{
+  position: absolute;
+  height: 260px;
+  width: 280px;
+  border: none;
+  top: 440px;
+  left: 875px;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+.button-explore{
+  position: absolute;
+    height: 50px;
+    width: 150px;
+    border: none;
+    bottom: 110px;
+    left: 935px;
+    color: #1b3e90;
+    background-color: white;
+    font-size: 12px;
+    font-weight: 100;
+}
+.videobg-section{
+  position:relative;
+}
+.video-bg{
+  width: 100%;
+  height: 700px;
+
+}
+.video-yamaha{
+  background-color: black;
+    position: absolute;
+    height: 550px;
+    width: 1000px;
+    top: 70px;
+    left: 150px;
+}
+.blucru-badge-video{
+  position: absolute;
+    height: 320px;
+    top: 200px;
+    left: 470px;
+}
+.play-button-video{
+  position: absolute;
+    height: 70px;
+    top: 331px;
+    left: 591px;
+}
+#technology{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding: 45px;
+
+}
+.power-tuner{
+  height: 370px;
+  width: 350px;
+  object-fit: cover;
+  
+}
+
+.title-technology{
+  color: white;
+    position: absolute;
+    top: 270px;
+    left: 190px;
+    font-weight: 200;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.subtitle-powertuner{
+  color: white;
+    position: absolute;
+    top: 270px;
+    left: 120px;
+    letter-spacing: 3px;
+    font-size: 30px;
+}
+.button-technology{
+  position: absolute;
+    color:#1b3e90;
+    background-color:  white;
+    width: 150px;
+    height: 50px;
+    top: 340px;
+    left: 160px;
+    border: none;
+    font-size: 11px;
+}
+.rmax-section{
+  height: 370px;
+  width: 350px;
+  object-fit: cover;
+}
+.subtitle-rmax{
+  color: white;
+    position: absolute;
+    top: 250px;
+    left: 520px;
+    letter-spacing: 3px;
+    font-size: 30px;
+}
+
+.title-rmax{
+  color: white;
+    position: absolute;
+    top: 290px;
+    left: 560px;
+    font-weight: 200;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+.button-rmax{
+  position: absolute;
+  color: #1b3e90;
+  background-color: white;
+  width: 150px;
+  height: 50px;
+  top: 340px;
+  left: 550px;
+  border: none;
+  font-size: 11px;
+}
+.r7-section{
+  height: 370px;
+  width: 350px;
+  object-fit: cover;
+}
+.title-r7{
+  color: white;
+    position: absolute;
+    top: 271px;
+    left: 922px;
+    font-weight: 200;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+.subtitle-r7{
+  color: white;
+    position: absolute;
+    top: 250px;
+    left: 978px;
+    letter-spacing: 3px;
+    font-size: 30px;
+}
+.button-r7{
+  position: absolute;
+    color: #1b3e90;
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    top: 340px;
+    left: 965px;
+    border: none;
+    font-size: 11px;
+}
+.heritage-pic{
+  width: 100%;
+  height: 525px;
+  object-fit: cover;
+}
+.heritage{
+  position: relative;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-bottom: -4px;
+
+}
+.subtitle-heritage{
+  position: absolute;
+  top: 167px;
+  left: 86px;
+  color: white;
+  font-size: 25px;
+  letter-spacing: 2px;
+  font-weight: 300;
+}
+.title-heritage{
+  position: absolute;
+  top: 210px;
+  left: 87px;
+  color: white;
+  letter-spacing: 2px;
+}
+.button-heritage{
+  position: absolute;
+    color: white;
+    background-color:  #1b3e90;
+    width: 250px;
+    height: 50px;
+    top: 290px;
+    left: 90px;
+    border: none;
+    font-size: 11px; 
+}
+
+.row{
+  background-color: black;
+  color: white;
+  height: 550px;
+  width: 100%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.mb-2{
+  font-size: 11px;
+color:#c0c0c0;
+margin-bottom: 10px;
+}
+.footer-shop{
+  margin-bottom: 2px;
+  padding-left: 40px;
+}
+.footer-section{
+  display: flex;
+    justify-content: space-around;
+    align-items: start;
+    flex-direction: row;
+    font-weight: 400;
+    padding-top: 50px;
+}
+.yamaha-footer-logo{
+  height: 200px;
+  width: 284px;
+  margin-right: 30px;
+}
+.footer-alsoofintrest{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+  margin-left: 60px;
+}
+.footer-alsoofintrest h3{
+font-size: 20px;
+}
+.footer-alsoofintrest h6{
+  font-size: 10px;
+  color: #6c757d;
+  font-weight: 500;
+  }
+  .footer-desciption{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 75px;
+    border-top: 1px solid #dee2e6;
+    padding-top: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+  }
+  .footer-logos{
+    height: 30px;
+  }
+  .footer-desciption p{
+    font-size: 11px;
+  }
+  .subtitle-footer{
+    color: #7e7e7e;
+    font-size: 9px;
+    padding-left: 75px;
+    width: 63%;
+  }
+
+  .navbar{
+    color: white;
+    display: flex;
+    position: fixed;
+    z-index: 100;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 250px;
+    
+  }
+  .yms-logo{
+    height: 80px;
+  }
+  .navbar h5{
+    margin: 5px;
+    font-size: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+  }
+  
